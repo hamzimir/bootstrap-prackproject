@@ -1,0 +1,54 @@
+.navbar {
+    background-color: lightpink;
+    border-radius: 23px;
+}
+
+.navbar ul {
+    */ overflow: auto;
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+    gap: 12px;
+}
+
+.navbar li a {
+    /* padding: 10px 10px; */
+    text-decoration: none;
+    font-size: 30px;
+}
+.container {
+    border: 2px solid black;
+    background-color: lightgreen;
+    width: 666px;
+    margin: 34px auto;
+    padding: 34px;
+}
+/* header::before{ */
+    /* content: "this is before pasuado selecters" */
+}
+/* header::after{ */
+    /* content: "this is after pasuado selecters" */
+}
+.btn {
+    background-color: red;
+    color: #add8e6;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: black;
+    color: wheat;
+    border: 3px solid white;
+
+    a:visited {
+        background: lightblue;
+    }
+
+    a:active {
+        background-color: lightyellow;
+    }
